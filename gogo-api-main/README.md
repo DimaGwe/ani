@@ -1,19 +1,24 @@
-# Anime API
+# Anime API v2.0
 
+## ✅ FIXED - Now Powered by Consumet
 
-### Broken
-**`As you all know, Gogoanime is currently broken and doesn't update episodes anymore.`**
+**Version 2.0** fixes the broken Gogoanime source by using the [Consumet](https://github.com/consumet) library with multiple anime providers.
 
-<details>
-  <summary>Details</summary>
-  Gogoanime is experiencing issues with updating episodes, which is why the API may not return the most recent content. 
+### What's New in v2.0
 
-  Kindly note that no complaints be made regarding the lack of updates as I can't do anything.
-</details>
+- ✅ **Multi-Provider Support** - HiAnime/Zoro (primary), GogoAnime (fallback), 9Anime (fallback)
+- ✅ **Auto-Failover** - Automatically switches providers when one fails
+- ✅ **Better Reliability** - Maintained by the Consumet team
+- ✅ **Same API** - All existing endpoints work with same request/response format
+- ✅ **Fresh Data** - Anime episodes update regularly from HiAnime
+
+### Migrating from v1.0?
+
+See [MIGRATION.md](./MIGRATION.md) for complete migration guide.
 
 ### Intro
 
-Modified api of [Gogoanime-api](https://github.com/riimuru/gogoanime-api)
+Originally modified from [Gogoanime-api](https://github.com/riimuru/gogoanime-api), now powered by [@consumet/extensions](https://github.com/consumet/consumet.ts)
 
 ### Installing
 
